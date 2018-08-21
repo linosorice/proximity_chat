@@ -1,0 +1,24 @@
+.set-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+#set-image-container {
+  text-align: center;
+}
+
+#upload-btn {
+  width: 100%;
+}
+
+#set-image-loading {
+  animation: loading-spin infinite 1s linear;
+  height: 16px;
+}
+
+@keyframes loading-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

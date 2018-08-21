@@ -1,0 +1,13 @@
+.gaamit-loading {
+  position: fixed;
+  animation: loading-spin infinite 1s linear;
+  height: 60px;
+  width: 100%;
+  display: inline-block;
+  top: 256px;
+}
+
+@keyframes loading-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
